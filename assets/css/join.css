@@ -1,0 +1,120 @@
+/**
+ * css 初始化
+ */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.x {
+    float: left;
+    line-height: inherit;
+}
+.y:after {
+    clear: both;
+    content: '';
+    display: table;
+}
+.z {
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.l {
+    margin: 0 auto;
+    width: 1200px;
+}
+.r {
+    float: right;
+}
+.w {
+    min-height: 100%;
+    overflow-y: auto;
+}
+
+/**
+ * element
+ */
+body {
+    background: url(../img/join/1.png) 50% 0 no-repeat;
+}
+
+
+[内容] {
+    height: 917px;
+}
+
+    [商标] {
+        background: url(../img/join/2.png) no-repeat;
+        height: 557px;
+        margin-left: -60px;
+        margin-top: 61px;
+        position: absolute;
+        width: 570px;
+        z-index: -1;
+    }
+
+    [表单] {
+        background: url(../img/join/4.png) no-repeat;
+        color: #fff;
+        font: 12px/1 Gulim;
+        height: 711px;
+        line-height: 21px;
+        margin-right: 92px;
+        padding-top: 50px;
+        width: 652px;
+    }
+
+        [表单] tr * {
+            vertical-align: top;
+        }
+
+        [表单] td:first-child {
+            font-weight: 700;
+            height: 39px;
+            padding-right: 14px;
+            text-align: right;
+            width: 138px;
+        }
+
+        [表单] td .gray {
+            color: #f5f5f5
+        }
+
+        [表单] td .yellow {
+            color: #fff100;
+        }
+
+        [表单] td div.yellow {
+            margin: 4px 0 6px;
+        }
+
+        [表单] input {
+            border: 0;
+            height: 21px;
+            padding-left: 5px;
+            vertical-align: top;
+            width: 158px;
+        }
+
+        [表单] table button {
+            background: url(../img/join/5.png) no-repeat;
+            border: 0;
+            height: 26px;
+            text-indent: -9999px;
+            width: 75px;
+        }
+
+        [提交] {
+            background: url(../img/join/6.png) no-repeat;
+            border: 0;
+            display: block;
+            height: 46px;
+            margin: 20px auto 0;
+            text-indent: -9999px;
+            width: 214px;
+        }
+
+
+[页脚] {}
