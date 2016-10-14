@@ -1,37 +1,4 @@
-/**
- * css 初始化
- */
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-.x {
-    float: left;
-    line-height: inherit;
-}
-.y:after {
-    clear: both;
-    content: '';
-    display: table;
-}
-.z {
-    left: 0;
-    position: absolute;
-    right: 0;
-    top: 0;
-}
-.l {
-    margin: 0 auto;
-    width: 1200px;
-}
-.r {
-    float: right;
-}
-.w {
-    min-height: 100%;
-    overflow-y: auto;
-}
+@import 'reset.css';
 
 /**
  * element
