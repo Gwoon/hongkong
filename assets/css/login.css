@@ -1,0 +1,49 @@
+@import 'reset.css';
+/**
+ * element
+ */
+body {
+    background: url(../img/login/1.png) 50% 0 no-repeat;
+}
+
+[内容] {
+    background: url(../img/login/2.png) 50% 49px no-repeat;
+    height: 917px;
+    padding-top: 413px;
+}
+    [加入] {
+        display: block;
+        margin: 0 auto;
+        width: 214px;
+
+    }
+
+    [表单] input{
+        height: 36px;
+        width: 258px;
+        margin: 0 auto;
+        display: block;
+        padding-left: 30px;
+    }
+    [表单] input[type="text"]{
+        background: #fff url(../img/login/4.png) 8px 12px no-repeat;
+        margin-top: 16px;
+    }
+
+    [表单] input[type="password"]{
+        background: #fff url(../img/login/5.png) 10px 11px no-repeat;
+        margin-top: 10px;
+    }
+
+
+    [登录] {
+        background: url(../img/login/6.png) no-repeat;
+        border: 0;
+        display: block;
+        height: 46px;
+        margin-left: 532px;
+        margin-top:17px;
+        text-indent: -9999px;
+        width: 144px;
+    }
+[页脚] {}
